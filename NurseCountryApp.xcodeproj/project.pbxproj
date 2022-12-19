@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADAE93FA295067EA00910B9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAE93F9295067EA00910B9C /* AppDelegate.swift */; };
+		ADAE93FC295067EA00910B9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAE93FB295067EA00910B9C /* SceneDelegate.swift */; };
+		ADAE93FE295067EA00910B9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAE93FD295067EA00910B9C /* ViewController.swift */; };
+		ADAE9401295067EA00910B9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAE93FF295067EA00910B9C /* Main.storyboard */; };
+		ADAE9404295067EA00910B9C /* NurseCountryApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADAE9402295067EA00910B9C /* NurseCountryApp.xcdatamodeld */; };
+		ADAE9406295067ED00910B9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAE9405295067ED00910B9C /* Assets.xcassets */; };
+		ADAE9409295067ED00910B9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAE9407295067ED00910B9C /* LaunchScreen.storyboard */; };
+		ADAE9414295067ED00910B9C /* NurseCountryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAE9413295067ED00910B9C /* NurseCountryAppTests.swift */; };
+		ADAE941E295067ED00910B9C /* NurseCountryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAE941D295067ED00910B9C /* NurseCountryAppUITests.swift */; };
+		ADAE9420295067ED00910B9C /* NurseCountryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAE941F295067ED00910B9C /* NurseCountryAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADAE9410295067ED00910B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAE93EE295067EA00910B9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAE93F5295067EA00910B9C;
+			remoteInfo = NurseCountryApp;
+		};
+		ADAE941A295067ED00910B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAE93EE295067EA00910B9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAE93F5295067EA00910B9C;
+			remoteInfo = NurseCountryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADAE93F6295067EA00910B9C /* NurseCountryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NurseCountryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAE93F9295067EA00910B9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADAE93FB295067EA00910B9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ADAE93FD295067EA00910B9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADAE9400295067EA00910B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADAE9403295067EA00910B9C /* NurseCountryApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NurseCountryApp.xcdatamodel; sourceTree = "<group>"; };
+		ADAE9405295067ED00910B9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADAE9408295067ED00910B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADAE940A295067ED00910B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAE940F295067ED00910B9C /* NurseCountryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurseCountryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAE9413295067ED00910B9C /* NurseCountryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseCountryAppTests.swift; sourceTree = "<group>"; };
+		ADAE9419295067ED00910B9C /* NurseCountryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurseCountryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAE941D295067ED00910B9C /* NurseCountryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseCountryAppUITests.swift; sourceTree = "<group>"; };
+		ADAE941F295067ED00910B9C /* NurseCountryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseCountryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADAE93F3295067EA00910B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE940C295067ED00910B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE9416295067ED00910B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADAE93ED295067EA00910B9C = {
+			isa = PBXGroup;
+			children = (
+				ADAE93F8295067EA00910B9C /* NurseCountryApp */,
+				ADAE9412295067ED00910B9C /* NurseCountryAppTests */,
+				ADAE941C295067ED00910B9C /* NurseCountryAppUITests */,
+				ADAE93F7295067EA00910B9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADAE93F7295067EA00910B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE93F6295067EA00910B9C /* NurseCountryApp.app */,
+				ADAE940F295067ED00910B9C /* NurseCountryAppTests.xctest */,
+				ADAE9419295067ED00910B9C /* NurseCountryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADAE93F8295067EA00910B9C /* NurseCountryApp */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE93F9295067EA00910B9C /* AppDelegate.swift */,
+				ADAE93FB295067EA00910B9C /* SceneDelegate.swift */,
+				ADAE93FD295067EA00910B9C /* ViewController.swift */,
+				ADAE93FF295067EA00910B9C /* Main.storyboard */,
+				ADAE9405295067ED00910B9C /* Assets.xcassets */,
+				ADAE9407295067ED00910B9C /* LaunchScreen.storyboard */,
+				ADAE940A295067ED00910B9C /* Info.plist */,
+				ADAE9402295067EA00910B9C /* NurseCountryApp.xcdatamodeld */,
+			);
+			path = NurseCountryApp;
+			sourceTree = "<group>";
+		};
+		ADAE9412295067ED00910B9C /* NurseCountryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE9413295067ED00910B9C /* NurseCountryAppTests.swift */,
+			);
+			path = NurseCountryAppTests;
+			sourceTree = "<group>";
+		};
+		ADAE941C295067ED00910B9C /* NurseCountryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE941D295067ED00910B9C /* NurseCountryAppUITests.swift */,
+				ADAE941F295067ED00910B9C /* NurseCountryAppUITestsLaunchTests.swift */,
+			);
+			path = NurseCountryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADAE93F5295067EA00910B9C /* NurseCountryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAE9423295067ED00910B9C /* Build configuration list for PBXNativeTarget "NurseCountryApp" */;
+			buildPhases = (
+				ADAE93F2295067EA00910B9C /* Sources */,
+				ADAE93F3295067EA00910B9C /* Frameworks */,
+				ADAE93F4295067EA00910B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NurseCountryApp;
+			productName = NurseCountryApp;
+			productReference = ADAE93F6295067EA00910B9C /* NurseCountryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADAE940E295067ED00910B9C /* NurseCountryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAE9426295067ED00910B9C /* Build configuration list for PBXNativeTarget "NurseCountryAppTests" */;
+			buildPhases = (
+				ADAE940B295067ED00910B9C /* Sources */,
+				ADAE940C295067ED00910B9C /* Frameworks */,
+				ADAE940D295067ED00910B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAE9411295067ED00910B9C /* PBXTargetDependency */,
+			);
+			name = NurseCountryAppTests;
+			productName = NurseCountryAppTests;
+			productReference = ADAE940F295067ED00910B9C /* NurseCountryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADAE9418295067ED00910B9C /* NurseCountryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAE9429295067ED00910B9C /* Build configuration list for PBXNativeTarget "NurseCountryAppUITests" */;
+			buildPhases = (
+				ADAE9415295067ED00910B9C /* Sources */,
+				ADAE9416295067ED00910B9C /* Frameworks */,
+				ADAE9417295067ED00910B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAE941B295067ED00910B9C /* PBXTargetDependency */,
+			);
+			name = NurseCountryAppUITests;
+			productName = NurseCountryAppUITests;
+			productReference = ADAE9419295067ED00910B9C /* NurseCountryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADAE93EE295067EA00910B9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ADAE93F5295067EA00910B9C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ADAE940E295067ED00910B9C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ADAE93F5295067EA00910B9C;
+					};
+					ADAE9418295067ED00910B9C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ADAE93F5295067EA00910B9C;
+					};
+				};
+			};
+			buildConfigurationList = ADAE93F1295067EA00910B9C /* Build configuration list for PBXProject "NurseCountryApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADAE93ED295067EA00910B9C;
+			productRefGroup = ADAE93F7295067EA00910B9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADAE93F5295067EA00910B9C /* NurseCountryApp */,
+				ADAE940E295067ED00910B9C /* NurseCountryAppTests */,
+				ADAE9418295067ED00910B9C /* NurseCountryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADAE93F4295067EA00910B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAE9409295067ED00910B9C /* LaunchScreen.storyboard in Resources */,
+				ADAE9406295067ED00910B9C /* Assets.xcassets in Resources */,
+				ADAE9401295067EA00910B9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE940D295067ED00910B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE9417295067ED00910B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADAE93F2295067EA00910B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAE93FE295067EA00910B9C /* ViewController.swift in Sources */,
+				ADAE93FA295067EA00910B9C /* AppDelegate.swift in Sources */,
+				ADAE9404295067EA00910B9C /* NurseCountryApp.xcdatamodeld in Sources */,
+				ADAE93FC295067EA00910B9C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE940B295067ED00910B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAE9414295067ED00910B9C /* NurseCountryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE9415295067ED00910B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAE941E295067ED00910B9C /* NurseCountryAppUITests.swift in Sources */,
+				ADAE9420295067ED00910B9C /* NurseCountryAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADAE9411295067ED00910B9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAE93F5295067EA00910B9C /* NurseCountryApp */;
+			targetProxy = ADAE9410295067ED00910B9C /* PBXContainerItemProxy */;
+		};
+		ADAE941B295067ED00910B9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAE93F5295067EA00910B9C /* NurseCountryApp */;
+			targetProxy = ADAE941A295067ED00910B9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADAE93FF295067EA00910B9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAE9400295067EA00910B9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADAE9407295067ED00910B9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAE9408295067ED00910B9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADAE9421295067ED00910B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADAE9422295067ED00910B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADAE9424295067ED00910B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M99555U5Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NurseCountryApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.NurseCountryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADAE9425295067ED00910B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M99555U5Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NurseCountryApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.NurseCountryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADAE9427295067ED00910B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M99555U5Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.NurseCountryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NurseCountryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NurseCountryApp";
+			};
+			name = Debug;
+		};
+		ADAE9428295067ED00910B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M99555U5Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.NurseCountryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NurseCountryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NurseCountryApp";
+			};
+			name = Release;
+		};
+		ADAE942A295067ED00910B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M99555U5Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.NurseCountryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NurseCountryApp;
+			};
+			name = Debug;
+		};
+		ADAE942B295067ED00910B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M99555U5Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.NurseCountryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NurseCountryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADAE93F1295067EA00910B9C /* Build configuration list for PBXProject "NurseCountryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAE9421295067ED00910B9C /* Debug */,
+				ADAE9422295067ED00910B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAE9423295067ED00910B9C /* Build configuration list for PBXNativeTarget "NurseCountryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAE9424295067ED00910B9C /* Debug */,
+				ADAE9425295067ED00910B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAE9426295067ED00910B9C /* Build configuration list for PBXNativeTarget "NurseCountryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAE9427295067ED00910B9C /* Debug */,
+				ADAE9428295067ED00910B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAE9429295067ED00910B9C /* Build configuration list for PBXNativeTarget "NurseCountryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAE942A295067ED00910B9C /* Debug */,
+				ADAE942B295067ED00910B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADAE9402295067EA00910B9C /* NurseCountryApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADAE9403295067EA00910B9C /* NurseCountryApp.xcdatamodel */,
+			);
+			currentVersion = ADAE9403295067EA00910B9C /* NurseCountryApp.xcdatamodel */;
+			path = NurseCountryApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADAE93EE295067EA00910B9C /* Project object */;
+}
