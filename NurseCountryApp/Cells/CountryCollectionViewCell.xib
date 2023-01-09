@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CountryCollectionViewCell" customModule="NurseCountryApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="226" height="190"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="226" height="190"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PHR-WR-Iir">
+                        <rect key="frame" x="0.0" y="0.0" width="226" height="190"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ze5-T4-h0l">
+                                <rect key="frame" x="178" y="8" width="40" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="d5t-1j-qQ7"/>
+                                    <constraint firstAttribute="width" constant="40" id="ir3-e0-7pu"/>
+                                </constraints>
+                                <color key="tintColor" red="0.76800960959999998" green="0.1786279556" blue="0.14985597010000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="suit.heart" catalog="system"/>
+                                <connections>
+                                    <action selector="favoriteTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="GJG-hk-MlG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j0v-vN-UJV">
+                                <rect key="frame" x="0.0" y="85" width="226" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Pd-NM-jWW">
+                                <rect key="frame" x="8" y="7.9999999999999982" width="41.333333333333336" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5Pd-NM-jWW" firstAttribute="leading" secondItem="PHR-WR-Iir" secondAttribute="leading" constant="8" id="4Qa-0m-xi5"/>
+                            <constraint firstAttribute="trailing" secondItem="j0v-vN-UJV" secondAttribute="trailing" id="8X0-Pg-Zcb"/>
+                            <constraint firstItem="ze5-T4-h0l" firstAttribute="top" secondItem="5Pd-NM-jWW" secondAttribute="top" id="8xL-DM-cmq"/>
+                            <constraint firstItem="5Pd-NM-jWW" firstAttribute="top" secondItem="PHR-WR-Iir" secondAttribute="top" constant="8" id="BxB-Pm-S5u"/>
+                            <constraint firstItem="ze5-T4-h0l" firstAttribute="trailing" secondItem="PHR-WR-Iir" secondAttribute="trailingMargin" id="E2t-EG-n8v"/>
+                            <constraint firstAttribute="bottom" secondItem="j0v-vN-UJV" secondAttribute="bottom" constant="84" id="Ofu-S6-zNj"/>
+                            <constraint firstItem="j0v-vN-UJV" firstAttribute="top" secondItem="PHR-WR-Iir" secondAttribute="top" constant="85" id="XGv-nQ-poi"/>
+                            <constraint firstItem="j0v-vN-UJV" firstAttribute="leading" secondItem="PHR-WR-Iir" secondAttribute="leading" id="r4i-jU-mUC"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="j0v-vN-UJV" secondAttribute="trailing" id="tJL-dQ-u7m"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="PHR-WR-Iir" secondAttribute="trailing" id="MSR-wG-tOl"/>
+                <constraint firstAttribute="bottom" secondItem="PHR-WR-Iir" secondAttribute="bottom" id="iCy-Ll-cwB"/>
+                <constraint firstItem="PHR-WR-Iir" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="llC-38-fel"/>
+                <constraint firstItem="PHR-WR-Iir" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="nXf-cO-pqm"/>
+            </constraints>
+            <size key="customSize" width="226" height="190"/>
+            <connections>
+                <outlet property="containerView" destination="PHR-WR-Iir" id="f2V-nd-xOb"/>
+                <outlet property="countryNameLabel" destination="j0v-vN-UJV" id="3od-8V-yIq"/>
+                <outlet property="favoriteButton" destination="ze5-T4-h0l" id="cVL-hI-VtM"/>
+                <outlet property="imgLabel" destination="5Pd-NM-jWW" id="cqd-Qi-GvL"/>
+            </connections>
+            <point key="canvasLocation" x="105.34351145038167" y="59.859154929577471"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="suit.heart" catalog="system" width="128" height="107"/>
+    </resources>
+</document>
